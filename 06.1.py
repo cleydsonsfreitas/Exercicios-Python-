@@ -1,0 +1,7 @@
+ola=str(input("Olá, tudo bem? Hoje vamos descobrir as caracteristicas do que você digitar!\n"))
+nome=str(input("Qual é o seu nome?\n"))
+print(f"Top {nome}")
+a=str(input("Vamos lá, digite qualquer coisa para nos.\n"))
+print(f"A caracteristica do valor {a} é" , type(a))
+print("É um numero?", a.isnumeric())
+print("É uma letra?", a.isalpha())
